@@ -1,0 +1,87 @@
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+  background-color: #5E393A;
+}
+
+.nav-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  float: right;
+  width: 35%;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-item:hover {
+  color: #F7F7F7;
+}
+
+.hero-section {
+  height: 28rem;
+  margin-top: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.image-div {
+  display: inline-flex;
+  flex: 1;
+  background-color: #F7F7F7;
+}
+
+.headerImg {
+  position: inline-block;
+  margin: auto auto;
+  border-radius: 50%;
+  width: 25rem;
+  height: 25rem;
+}
+
+.intro-div {
+  display: inline-flex;
+  background-color: #89AB92;
+  flex: 2;
+}
+
+.the-intros {
+  width: 100%;
+  height: 100%;
+}
+
+.intro-container {
+  margin: auto auto;
+}
+
+.intro {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .1rem;
+  border-right: .35em solid orange;
+  animation:
+    typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.main-body {
+  background-color: #F7F7F7;
+  height: 45rem;
+}
