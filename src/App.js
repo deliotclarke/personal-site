@@ -64,7 +64,7 @@ export default class App extends Component {
       // INJECT CSS
       var css = document.createElement("style");
       css.type = "text/css";
-      css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+      css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #F7F7F7}";
       document.body.appendChild(css);
     };
 
@@ -73,7 +73,6 @@ export default class App extends Component {
         <nav>
           <div className="navbar">
             <ul className="nav-links">
-              <li className="nav-item">Intro</li>
               <li className="nav-item">About</li>
               <li className="nav-item">Projects</li>
               <li className="nav-item">Tech Stuff</li>

@@ -49,12 +49,12 @@
   font-size: 6rem;
   color: #F7F7F7;
   left: 1rem;
-  top: 21.5rem;
+  top: 22rem;
   line-height: .75em;
 }
 
 .name-space {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 .headerImg {
@@ -74,11 +74,6 @@
   display: inline-flex;
   background-color: #89AB92;
   flex: 2;
-}
-
-.the-intros {
-  width: 100%;
-  height: 100%;
 }
 
 .intro-container {
